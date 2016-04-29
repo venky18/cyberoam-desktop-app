@@ -1,0 +1,53 @@
+.field
+{
+    margin-bottom: -8px;
+}
+#username
+{
+	width: 10em;
+	height: 2em;
+	display: inline-block;
+	border: none;
+	margin-left: 70px;
+	margin-top: 40px;
+}
+#password
+{
+	width: 10em;
+	height: 2em;
+	display: inline-block;
+	border: none;
+	margin-left: 70px;
+
+}
+#password:focus
+{	border-right: none;
+	border-left: none;
+	border-top: none;
+	border-bottom: .1em solid #123daf;
+	outline: none;
+}
+#username:focus
+{	border-right: none;
+	border-left: none;
+	border-top: none;
+	border-bottom: .1em solid #123daf;
+	outline: none;
+}
+#btn
+{
+	width: 7em;
+	height: 2em;
+	text-align: center;
+	display: inline-block;
+	border:1px;
+	border-style: solid;
+	border-color: #00ACF1;
+	background-color: #ffffff;
+	margin-left: 70px;
+}
+#btn:hover
+{	
+	background-color: #00ACF1;
+	color: #ffffff;
+}
